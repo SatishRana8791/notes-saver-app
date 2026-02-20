@@ -13,7 +13,7 @@ A simple and clean notes/paste saver app built with React and Tailwind CSS.
 ![Pastes Page](https://raw.githubusercontent.com/SatishRana8791/notes-saver-app/main/screenshots/pastes.png)
 
 ### View Paste
-![View Paste](https://raw.githubusercontent.com/SatishRana8791/notes-saver-app/main/screenshots/viewpaste.png)
+![View Paste](https://raw.githubusercontent.com/SatishRana8791/notes-saver-app/main/screenshots/viewpastes.png)
 
 ## 🚀 Features
 
