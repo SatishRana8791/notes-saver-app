@@ -1,16 +1,68 @@
-# React + Vite
+# 📝 Notes Saver App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean notes/paste saver app built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [notes-saver-app.vercel.app](https://notes-saver-app.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## React Compiler
+### Home Page
+![Home Page](https://raw.githubusercontent.com/SatishRana8791/notes-saver-app/main/screenshots/home.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Pastes Page
+![Pastes Page](https://raw.githubusercontent.com/SatishRana8791/notes-saver-app/main/screenshots/pastes.png)
 
-## Expanding the ESLint configuration
+### View Paste
+![View Paste](https://raw.githubusercontent.com/SatishRana8791/notes-saver-app/main/screenshots/viewpaste.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ✅ Create, Edit, Delete pastes
+- 🔍 Search pastes by title
+- 🔃 Sort pastes by newest, oldest, A→Z, Z→A
+- 📋 Copy paste content to clipboard
+- 📥 Download paste as .txt file
+- 🔗 Share paste link
+- 👁️ View full paste content
+- 💾 Data persists via localStorage
+
+## 🛠️ Tech Stack
+
+- React
+- Redux Toolkit
+- Tailwind CSS
+- React Router DOM
+- React Hot Toast
+- Lucide React
+
+## 📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/notes-saver-app.git
+
+# Go into the project
+cd notes-saver-app
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+## 📁 Project Structure
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   ├── Paste.jsx
+│   └── ViewPaste.jsx
+├── redux/
+│   └── pasteSlice.js
+└── main.jsx
+```
+
+## 🙌 Author
+
+Made by [Satish Kumar](https://github.com/SatishRana8791)
