@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom';
 import { useDispatch,useSelector } from "react-redux"; // ✅ correct
-import { addToPastes, updateToPastes } from '../redux/pasteslice.js';
+import { addToPastes, updateToPastes } from '../redux/pasteSlice.js';
 import toast from 'react-hot-toast';
 
 const Home = () => {
