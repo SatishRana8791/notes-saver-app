@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { removefromPastes } from '../redux/pasteSlice';
 import toast from 'react-hot-toast';
+import { Search } from 'lucide-react';
 
 // button
 import { Trash2, Copy, Pencil, Eye, Share2,Calendar , Download } from 'lucide-react';
@@ -50,13 +51,14 @@ function handleDownload(paste) {
     <div>
       <div className='m-3 w-[80%] mx-auto'>
         {/* Search */}
-        <div>
+        <div className='relative'>
+          <Search size={18} className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-400' />
           <input
             type="search"
-            placeholder='Search Paste here...'
+            placeholder='search paste here...'
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className='pl-2 p-2 mt-4 mb-3 bg-[#1e2026] w-[100%] font-light text-xl border rounded text-white'
+            className='pl-10 p-2 mt-4 mb-3 bg-[#1e2026] w-[100%] font-light text-xl border rounded text-white'
           />
         </div>
 

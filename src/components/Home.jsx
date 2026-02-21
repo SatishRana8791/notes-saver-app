@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useDispatch,useSelector } from "react-redux"; // ✅ correct
 import { addToPastes, updateToPastes } from '../redux/pasteSlice.js';
 import toast from 'react-hot-toast';
+import { Rocket } from 'lucide-react';
 
 const Home = () => {
   const [title,setTitle]=useState('');
@@ -66,13 +67,14 @@ const Home = () => {
         placeholder='enter title here' 
         value={title}
         onChange={(e)=>{setTitle(e.target.value)}}
-        className='pl-5 p-4 rounded mt-2 bg-[#1a1a1a] w-[82%] font-light text-xl'
+        className='pl-5 p-4 rounded mt-2 bg-[#1a1a1a] w-[80%] font-light text-xl'
         />
   
-        <button onClick={createpaste} className='border p-4 bg-blue-800 mr-4'>
+        <button onClick={createpaste} className='border p-4 bg-blue-800 mr-4 flex items-center gap-2'>
           {
             pasteId ? "Update My Paste" : "Create My Paste"
           }
+          <Rocket size={18} className='text-red-500' />
         </button>
       </div>
       <div className=' mt-4 w-full'>

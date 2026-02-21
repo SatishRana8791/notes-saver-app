@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, useSearchParams } from 'react-router-dom';
 import { useDispatch,useSelector } from "react-redux"; // ✅ correct
-import { addToPastes, updateToPastes } from '../redux/pasteSlice.js';
+// import { addToPastes, updateToPastes } from '../redux/pasteSlice.js';
 import { FilePlus,Copy } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
@@ -21,7 +21,7 @@ const ViewPaste = () => {
   return (
     <div className='w-[80%] mx-auto'>
 
-      <div className='flex flex-row gap-7 justify-between w-[90%] border '>
+      <div className='flex flex-row gap-7 justify-between w-[90%] '>
 
         <input 
           type="text" 

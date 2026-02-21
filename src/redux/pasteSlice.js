@@ -17,11 +17,7 @@ const initialState = {
   pastes: storedPastes
 };
 
-// const initialState = {
-//   pastes: localStorage.getItem("pastes")
-//     ? JSON.parse(localStorage.getItem("pastes"))
-//     : []
-// }
+
 
 const pasteSlice = createSlice({
   name: "paste",      // slice name (used for action types)
