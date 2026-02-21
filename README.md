@@ -2,7 +2,7 @@
 
 A simple and clean notes/paste saver app built with React and Tailwind CSS.
 
-🔗 **Live Demo:** [notes-saver-app.vercel.app](https://notes-saver-app.vercel.app)
+🔗 **Live Demo:** [notes-saver-app.vercel.app]([https://notes-saver-app.vercel.app](https://notes-saver-app-virid.vercel.app/))
 
 ## 📸 Screenshots
 
