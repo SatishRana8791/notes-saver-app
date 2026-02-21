@@ -38,7 +38,7 @@ A simple and clean notes/paste saver app built with React and Tailwind CSS.
 ## 📦 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/notes-saver-app.git
+git clone https://github.com/SatishRana8791/notes-saver-app.git
 
 # Go into the project
 cd notes-saver-app
